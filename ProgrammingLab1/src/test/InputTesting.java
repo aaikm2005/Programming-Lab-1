@@ -8,7 +8,9 @@ public class InputTesting {
 		System.out.print("Enter a number for radius of a circle: ");
 		double radius = scanner.nextDouble();
 		
+		double area = radius * radius * 3.14159;
 		
+		System.out.println("Area of a cicrlce with radius of " + radius + " cm is " + area  + " cm ^ 2");
 		
 		
 		
